@@ -19,13 +19,13 @@ public class Hailstone {
 	 * @param startingNumber the starting number
 	 * @return the sequence as a list of integers
 	 */
-	public List<Integer> getSequence(int startingNumber) {
+	public List<Integer> getSequence(final int startingNumber) {
 		if (startingNumber < 1) {
 			throw new IllegalArgumentException(STARTING_NUMBER_ERR);
 		}
 		
 		int n = startingNumber;
-		List<Integer> result = new ArrayList<Integer>();
+		final List<Integer> result = new ArrayList<Integer>();
 		
 		while (n != 1) {
 			result.add(n);
