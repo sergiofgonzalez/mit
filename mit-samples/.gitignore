@@ -1,2 +1,7 @@
-/.project
-/.settings
+# ignore for mit-samples
+
+.project
+.classpath
+.settings/
+target/
+bin/
