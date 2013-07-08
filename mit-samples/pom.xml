@@ -22,6 +22,7 @@
 		<module>004-state-machines</module>
 		<module>005-regular-expressions-and-grammars</module>
 		<module>006-abstract-data-types</module>
+		<module>007-recursive-data-types</module>		
 	</modules>	   
 
 	
